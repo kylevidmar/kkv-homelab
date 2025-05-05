@@ -37,12 +37,12 @@ spec:
         pathType: Prefix
         activeService: true
         hosts:
-          - host: vault.crossnetcorp.com
+          - host: vault.kkv.com
             paths: []
         tls:
         - secretName: vault-tls
           hosts:
-          - vault.crossnetcorp.com
+          - vault.kkv.com
       # Storages 
       dataStorage:
         enabled: true
